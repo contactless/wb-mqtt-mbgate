@@ -5,8 +5,8 @@ After=mosquitto.target
 [Service]
 Type=simple
 Environment="MBGATE_OPTS=-c /etc/wb-mqtt-mbgate.conf"
-ExecStart=/usr/bin/wb-mqtt-mbgate \$MBGATE_OPTS
-ExecReload=/bin/kill -HUP \$MAINPID
+ExecStart=/usr/bin/wb-mqtt-mbgate $MBGATE_OPTS
+ExecReload=/bin/kill -HUP $MAINPID
 KillMode=process
 Restart=on-failure
 StartLimitBurst=2

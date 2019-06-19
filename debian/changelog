@@ -2,7 +2,7 @@ wb-mqtt-mbgate (0.1.5) stable; urgency=medium
 
   * add systemd unit
 
- -- Alexander Kilpio <kilpio@wirenboard.ru>  Thu, 18 Jun 2019 19:03:06 +0300
+ -- Alexander Kilpio <kilpio@wirenboard.ru>  Thu, 19 Jun 2019 19:03:06 +0300
 
 wb-mqtt-mbgate (0.1.4) stable; urgency=medium
 
